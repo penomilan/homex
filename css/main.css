@@ -1800,14 +1800,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about h3::before {
   display: block;
   content: "";
-  width: 3px;
+  width: 4px;
   height: 9.6rem;
   background-color: rgba(149, 149, 149, 0.7);
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "librebaskerville-bold", serif;
-  font-size: 4rem;
+  font-family: "librebaskerville", serif;
+  font-size: 4.5rem;
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
@@ -1903,7 +1903,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.7);
+  background-color: rgba(5, 5, 5, 0.2);
 }
 #services .gradient-overlay {
   position: absolute;
@@ -1954,6 +1954,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.765;
   color: #FFFFFF;
   margin-bottom: 3rem;
+}
+#services h1{
+  font-family: "librebaskerville", serif;
+  font-size: 4.5rem;
+  line-height: 1.8;
+  color: #2e383f;
+  margin-top: 6rem;;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2041,6 +2048,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #portfolio .bricks-wrapper .brick:nth-child(2n+1) {
   clear: both;
+}
+#portfolio h1{
+  font-family: "librebaskerville", serif;
+  font-size: 4.5rem;
+  line-height: 1.8;
+  color: #2e383f;
+  margin-top: 6rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2507,8 +2521,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 #contact {
-  background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  background-color: white;
+  
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2523,11 +2537,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .75;
+  opacity: .2;
   background-color: #000000;
 }
 #contact .section-intro h1 {
   color: white;
+  font-family: "librebaskerville", serif;
+  font-size: 4.5rem;
 }
 #contact .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
