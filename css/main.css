@@ -1345,6 +1345,56 @@ header .header-logo a {
   bottom: -9px;
 }
 
+
+
+
+/* ------------------------------------------------------------------- 
+ * project close - (_layout.css) 
+ * ------------------------------------------------------------------- */
+#header-project {
+  display: block;
+  position: fixed;
+  right: 0px;
+  top: 50px;
+  height: 42px;
+  width: 42px;
+  line-height: 25px;
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  color: rgba(255, 255, 255, 1);
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#header-project.opaque {
+  background-color: #000000;
+}
+#header-project.opaque .header-menu-text {
+  background-color: #000000;
+}
+#header-project:hover, #header-menu-trigger:focus {
+  opacity: 0.5;
+}
+#header-project .header-menu-text {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -75px;
+  width: 75px;
+  text-align: center;
+  background-color: transparent;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
 /* ------------------------------------------------------------------- 
  * off-canvas menu - (_layout.scss) 
  * ------------------------------------------------------------------- */
@@ -1528,6 +1578,39 @@ header .header-logo a {
   opacity: .2;
   background-color: #19191b;
 }
+
+
+
+
+#project01 {
+  width: 100%;
+  height: 50%;
+  background-color: whitesmoke;
+  background-image: url(../images/portfolio/project107.jpg);
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 402px;
+  position: relative;
+}
+#project01 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  background-color: #e4e4e7;
+}
+
+
+
+
+
+
 
 .home-content-table {
   width: 100%;
@@ -2094,7 +2177,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   z-index: 1;
 }
 .bricks-wrapper .item-wrap .overlay::after {
-  content: "...";
+  content: "";
   font-family: georgia, serif;
   font-size: 3rem;
   z-index: 1;
