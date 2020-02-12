@@ -150,6 +150,25 @@
 		}); 
 	};
 
+
+	/* Project back on Scrolldown
+	 * ------------------------------------------------------ */
+	var ssBackOnScrolldown = function() {
+
+		var backTrigger = $('#header-project');
+
+		$WIN.on('scroll', function() {
+
+			if ($WIN.scrollTop() > 150) {				
+				backTrigger.addClass('opaque');
+			}
+			else {				
+				backTrigger.removeClass('opaque');
+			}
+
+		}); 
+	};
+
 	
   	/* OffCanvas Menu
 	 * ------------------------------------------------------ */
@@ -183,6 +202,9 @@
 		});
 
    };
+
+
+
 
 
   /* Smooth Scrolling
@@ -410,6 +432,7 @@
 		ssFlexSlider();
 		ssOwlCarousel();
 		ssMenuOnScrolldown();
+		ssBackOnScrolldown();
 		ssOffCanvas();
 		ssSmoothScroll();
 		ssPlaceholder();
@@ -419,6 +442,7 @@
 		ssContactForm();
 		ssAjaxChimp();
 		ssBackToTop();
+
 
 	})();
  
