@@ -64,8 +64,8 @@ html, body {
 
 body {
   background: #111111;
-  font-family: "librebaskerville-regular", serif;
-  font-size: 1.6rem;
+  font-family: "montserrat-light";
+  font-size: 1.8rem;
   line-height: 3rem;
   color: #353535;
   margin: 0;
@@ -95,7 +95,7 @@ a:hover, a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "montserrat-regular", sans-serif;
   color: #151515;
   font-style: normal;
   text-rendering: optimizeLegibility;
@@ -1371,12 +1371,15 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 #header-project.opaque {
-  background-color: #000000;
+  background-color: transparent;
 }
 #header-project.opaque .header-menu-text {
   background-color: #000000;
+  width: 100px;
+  padding: 10px;
+  color: grey;
 }
-#header-project:hover, #header-menu-trigger:focus {
+#header-project:hover, #header-project:focus {
   opacity: 0.5;
 }
 #header-project .header-menu-text {
@@ -1873,7 +1876,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 1.667;
   color: #07617d;
   text-transform: uppercase;
@@ -1889,7 +1892,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
-  font-family: "librebaskerville", serif;
+  font-family: "montserrat-light";
   font-size: 4.5rem;
   line-height: 1.8;
   color: #2e383f;
@@ -1986,7 +1989,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.2);
+  background-color: rgba(5, 5, 5, 0.3);
 }
 #services .gradient-overlay {
   position: absolute;
@@ -2007,7 +2010,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 #services .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: rgba(242, 242, 242, 1);
 }
 #services .services-content {
   text-align: center;
@@ -2039,11 +2042,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 3rem;
 }
 #services h1{
-  font-family: "librebaskerville", serif;
-  font-size: 4.5rem;
+  font-family: "montserrat-light";
+  font-size: 5rem;
+  font-weight: lighter;
   line-height: 1.8;
   color: #2e383f;
-  margin-top: 6rem;;
+  margin-top: 6rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2101,16 +2105,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
-  background: #111111;
+  background: #FFFFFF;
 }
 #portfolio .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: grey;
 }
 #portfolio .section-intro h1 {
   color: #FFFFFF;
 }
 #portfolio .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: black;
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
@@ -2133,8 +2137,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 #portfolio h1{
-  font-family: "librebaskerville", serif;
-  font-size: 4.5rem;
+  font-family: "montserrat-light";
+  font-size: 5rem;
+  font-weight: lighter;
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
@@ -2620,36 +2625,39 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
-  background-color: #000000;
+  opacity: 0.5;
+  background-color: whitesmoke;
 }
 #contact .section-intro h1 {
-  color: white;
-  font-family: "librebaskerville", serif;
-  font-size: 4.5rem;
+  color: black;
+  font-family: "montserrat-light";
+  font-size: 5rem;
+  font-weight: lighter;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: grey;
 }
 #contact .section-intro p.lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: grey;
+  font-weight: lighter;
 }
 
 .contact-content {
   max-width: 1024px;
   margin-top: 3rem;
-  color: #FFFFFF;
+  color: black;
   z-index: 600;
   position: relative;
 }
 .contact-content h5 {
-  color: #FFFFFF;
+  color: grey;
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
   color: #555555;
   font-size: 1.4rem;
 }
+
 
 /* contact info */
 .contact-info .cinfo {
@@ -2697,18 +2705,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   content: "";
 }
 #contact form ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: grey;
 }
 #contact form :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: grey;
   /* Firefox 18- */
 }
 #contact form ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: grey;
   /* Firefox 19+ */
 }
 #contact form :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: grey;
 }
 #contact form .placeholder {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -2719,15 +2727,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact input[type="email"],
 #contact textarea {
   width: 100%;
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
   margin-bottom: 3.6rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: white;
 }
 
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-  color: #FFFFFF;
+  color: black;
 }
 
 #contact textarea {
@@ -2735,7 +2743,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-  color: #FFFFFF;
+  color: black;
 }
 
 #contact button.submitform {
