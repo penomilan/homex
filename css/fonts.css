@@ -40,3 +40,9 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "montserrat-light";
+  src: url("../fonts/montserrat/montserrat-light.otf") format("otf"), url("../fonts/montserrat/montserrat-light.otf") format("otf");
+  font-style: normal;
+  font-weight: normal;
+}
