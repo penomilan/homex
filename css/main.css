@@ -2974,6 +2974,7 @@ footer h4.h05::after {
   margin-bottom: 1.5rem;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
+  color: white;
 }
 .footer-main #mc-form button {
   background-color: #f9a828;
