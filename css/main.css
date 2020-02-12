@@ -1208,7 +1208,7 @@ input::-moz-focus-inner {
 }
 
 .narrow {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .js .animate-this, .js .animate-intro {
@@ -2152,8 +2152,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   overflow: hidden;
 }
+/* zoom icon removed
 .bricks-wrapper .item-wrap .overlay {
   cursor: zoom-in;
+  */
 }
 .bricks-wrapper .item-wrap .overlay img {
   vertical-align: bottom;
