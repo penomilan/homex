@@ -135,7 +135,7 @@
    <section id="about">
 
    	<div class="row about-wrap">
-   		<div class="col-full">
+   		<div class="col-full" style="padding-bottom: 5%;">
 
    			<div class="about-profile-bg"></div>
 
@@ -182,9 +182,9 @@
    		<div class="col-full">
    			
    				<h3>Service</h3>
-   			   <h1>What We Do.</h1>
+   			   
    			
-   			   <p class="lead">Bei HOMEX DESIGN STUDIO werden Lebensräume gestaltet. Das Design, einladend und zeitlos und komfortabel.</p>
+   			   <h1 class="lead">Bei HOMEX DESIGN STUDIO werden Lebensräume gestaltet. Das Design, einladend und zeitlos und komfortabel.</h1>
    			
    	   </div> <!-- end col-full -->
    	</div> <!-- end row -->
@@ -259,9 +259,9 @@
    		<div class="row narrow section-intro with-bottom-sep animate-this">
 	   		<div class="col-twelve">
 	   			<h3>Projekte</h3>
-		   		<h1>Sehen Sie sich unsere vorgestellten Projekte an.</h1>  			
+		   					
 		   		
-		   		<p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>	   			
+		   		<h1 class="lead">Sehen Sie sich unsere vorgestellten Projekte an.</h1>	   			
 	   		</div>   		
 	   	</div> <!-- end row section-intro -->   		
 
@@ -271,7 +271,7 @@
    		<div class="col-twelve">
    			<div class="bricks-wrapper">					
 
-   				<div class="brick folio-item">
+   				<div class="brick folio-item" style="padding: 1%;">
 	               <div class="item-wrap animate-this"> 	
 	                  <a href="project01.html" class="overlay">
 	                  	<img src="images/portfolio/project101.jpg" alt="Skaterboy">	                     
@@ -289,7 +289,7 @@
 						
 	        		</div> <!-- end folio-item -->
 
-	        		<div class="brick folio-item">
+	        		<div class="brick folio-item" style="padding: 1%;">
 	               <div class="item-wrap animate-this"> 	
 	                  <a href="#" class="overlay">
 	                  	<img src="images/portfolio/project201.jpg" alt="Shutterbug">	                     
@@ -347,7 +347,7 @@
 
    		<div class="col-seven tab-full animate-this">
 
-   			<h5>Send Us A Message</h5>
+   			<h5>Schick uns eine Nachricht</h5>
 
             <!-- form -->
             <form name="contactForm" id="contactForm" method="post">     			
@@ -357,27 +357,29 @@
                </div>
 
                <div class="row">
-                 	<div class="col-six tab-full">
+                 	<div class="col-twelve tab-full">
                  		<div class="form-field">
-                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                 			<input name="contactEmail" type="email" id="contactEmail" placeholder="E-mail" value="" required="">
                  		</div>		      			   
 		            </div>
+		            <!--
 	            	<div class="col-six tab-full">	            
 	            		<div class="form-field">
 	            			<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
 	                  </div>		     				   
 		            </div>
+		        -->
                </div>
                                          
                <div class="form-field">
-	              	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	              	<textarea name="contactMessage" id="contactMessage" placeholder="Nachricht" rows="10" cols="50" required=""></textarea>
 	            </div> 
 
                <div class="form-field">
-                  <button class="submitform">Submit</button>
+                  <button class="submitform">Senden</button>
 
                   <div id="submit-loader">
-                     <div class="text-loader">Sending...</div>                             
+                     <div class="text-loader">Senden...</div>                             
        			      <div class="s-loader">
 							  	<div class="bounce1"></div>
 							  	<div class="bounce2"></div>
@@ -393,7 +395,7 @@
 
             <!-- contact-success -->
       		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+               <i class="fa fa-check"></i>Ihre Nachricht wurde gesendet, danke!<br>
       		</div>
 
          </div> <!-- end col-seven --> 
@@ -442,13 +444,16 @@
 
 	            <h4 class="h05">Homex.</h4>
 
-	            <p>Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Proin eget tortor risus.</p>	            
+	            <p><a href="#home">Home</a></br>
+	            <a href="#about">About</a></br>
+	            <a href="#services">Service</a></br>
+	            <a href="#portfolio">Projekte</a></br></p>           
 
 		      </div> <!-- end footer-about -->
 
 	      	<div class="col-three tab-full footer-social">
 
-	      		<h4 class="h05">Follow Us.</h4>
+	      		<h4 class="h05">Folge uns.</h4>
 
 	      		<ul class="list-links">
 	      				<li>
@@ -465,7 +470,7 @@
 
 	      		<h4 class="h05">Get Notified.</h4>
 
-	      		<p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa.</p>
+	      		<p>Hinterlassen Sie Ihre E-Mail und erhalten Sie die neuesten Nachrichten.</p>
 
 	      		<div class="subscribe-form">
 	      	
@@ -477,7 +482,7 @@
 			   			<button><i class="icon-mail"></i></button>
 		   	
 		   				<label for="mc-email" class="subscribe-message"></label>
-			
+
 						</form>
 
 	      		</div>
@@ -495,7 +500,7 @@
       		<div class="col-twelve">
 	      		<div class="copyright">
 		         	<span>2020© All Rights Reserved by HOMEX.</span> 
-		         	<span>Powered by <a href="https://www.penomedia.com/" target="_blank">PENO.</a></span>		         	
+		         			         	
 		         </div>		               
 	      	</div>
 
