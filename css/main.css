@@ -1642,7 +1642,7 @@ header .header-logo a {
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
-  font-family: "montserrat-bold", serif;
+  font-family: "montserrat-light";
   font-size: 9rem;
   line-height: 1.133;
   color: #FFFFFF;
@@ -2810,6 +2810,23 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .oldie #submit-loader .text-loader {
   display: block;
 }
+
+/* --------------------------------------------------------------- 
+ * Map style - (_layout.scss)
+ * --------------------------------------------------------------- */
+
+
+#map {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+padding-top: 00px;
+}
+
+
+
 
 /* --------------------------------------------------------------- 
  * loader animation - (_layout.scss)
