@@ -1580,9 +1580,53 @@ header .header-logo a {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: .2;
+  opacity: .4;
   background-color: #19191b;
 }
+
+
+/* ===================================================================
+ *  10. home video - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('images/testvideo.mp4') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: all;
+    }
+}
+
+
+
 
 
 
@@ -1707,11 +1751,12 @@ header .header-logo a {
   padding-bottom: 15rem;
 }
 .home-content-tablecell h3 {
-  font-family: "montserrat-bold", sans-serif;
-  font-size: 2.2rem;
+  font-family: "librebaskerville-regular", sans-serif;
+  font-size: 3rem;
+  font-weight: 100;
   color: white;
   text-transform: uppercase;
-  letter-spacing: .3rem;
+  letter-spacing: .6rem;
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
@@ -1943,16 +1988,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-align: center;
 }
 #about .about-wrap {
-  max-width: 850px;
+  max-width: 80%;
 }
 #about span {
-  color: #07617d;
+  color: grey;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2rem;
   line-height: 1.667;
-  color: #07617d;
+  color: grey;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1971,6 +2016,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.8;
   color: #2e383f;
   margin-top: 6rem;
+  font-weight: 100;
 }
 
 /* ------------------------------------------------------------------- 
