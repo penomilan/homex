@@ -1618,7 +1618,7 @@ header .header-logo a {
 @media (max-width: 767px) {
     .fullscreen-bg {
         background: url('images/testvideo.mp4') center center / cover no-repeat;
-        object-fit: cover;
+        object-fit: cover
     }
 
     .fullscreen-bg__video {
@@ -1921,6 +1921,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     top: 24px;
     right: 10px;
   }
+
+.fullscreen-bg {
+        background: url('images/testvideo.mp4') center center / cover no-repeat;
+        object-fit: cover
+    }
+
+    .fullscreen-bg__video {
+        display: all;
+    }
+}
+
+
 }
 @media only screen and (max-width: 600px) {
   #home {
@@ -1938,6 +1950,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 4.8rem;
   }
+
+  .fullscreen-bg {
+        background: url('images/testvideo.mp4') center center / cover no-repeat;
+        object-fit: cover
+    }
+
+    .fullscreen-bg__video {
+        display: all;
+    }
+}
 }
 @media only screen and (max-width: 500px) {
   .home-content-tablecell .row {
@@ -1958,6 +1980,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-social-list::before {
     height: 24px;
   }
+
+  .fullscreen-bg {
+        background: url('images/testvideo.mp4') center center / cover no-repeat;
+        object-fit: cover
+    }
+
+    .fullscreen-bg__video {
+        display: all;
+    }
+}
 }
 @media only screen and (max-width: 400px) {
   #home {
@@ -1974,6 +2006,17 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   .home-content-tablecell h1 {
     font-size: 3.6rem;
   }
+
+
+  .fullscreen-bg {
+        background: url('images/testvideo.mp4') center center / cover no-repeat;
+        object-fit: cover
+    }
+
+    .fullscreen-bg__video {
+        display: all;
+    }
+}
 }
 
 
