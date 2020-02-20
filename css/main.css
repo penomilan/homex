@@ -1618,6 +1618,7 @@ header .header-logo a {
 @media (max-width: 767px) {
     .fullscreen-bg {
         background: url('images/testvideo.mp4') center center / cover no-repeat;
+        object-fit: cover;
     }
 
     .fullscreen-bg__video {
