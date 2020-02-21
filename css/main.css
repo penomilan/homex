@@ -2075,8 +2075,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about .lead {
   font-family: "montserrat-light";
-  font-size: 4.5rem;
-  line-height: 1.8;
+  font-size: 4rem;
+  line-height: 1.5;
   color: #2e383f;
   margin-top: 6rem;
   font-weight: 100;
