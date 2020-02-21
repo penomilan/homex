@@ -2294,10 +2294,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: grey;
 }
 #portfolio .section-intro h1 {
-  color: #FFFFFF;
+  color: #737373;
+  font-weight: 100;
+  font
 }
 #portfolio .section-intro .lead {
-  color: black;
+  color: #595959;
+  font-weight: 100;
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
@@ -2320,12 +2323,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 #portfolio h1{
+
   font-family: "montserrat-light";
   font-size: 5rem;
-  font-weight: lighter;
-  line-height: 1.8;
-  color: #2e383f;
+  line-height: 1.5;
+  color: #737373;
   margin-top: 6rem;
+  font-weight: 100;
 }
 
 /* ------------------------------------------------------------------- 
