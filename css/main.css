@@ -799,7 +799,7 @@ button.large, .button.large {
 
 button.stroke, .button.stroke {
   background: transparent !important;
-  border: 3px solid #313131;
+  border: 1px solid #313131;
   line-height: 4.8rem;
 }
 
@@ -2052,6 +2052,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #about .about-wrap {
   max-width: 80%;
+  padding-top: 10%;
 }
 #about span {
   color: grey;
@@ -2065,21 +2066,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .3rem;
   position: relative;
 }
-#about h3::before {
-  display: block;
-  content: "";
-  width: 4px;
-  height: 9.6rem;
-  background-color: rgba(149, 149, 149, 0.7);
-  margin: 0 auto 2.4rem;
-}
+
 #about .lead {
+  color: #737373;
   font-family: "montserrat-light";
-  font-size: 4rem;
   line-height: 1.5;
-  color: #2e383f;
-  margin-top: 6rem;
   font-weight: 100;
+  font-size: 2em;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2194,6 +2187,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .section-intro .lead {
   color: rgba(242, 242, 242, 1);
+  font-family: "montserrat-light";
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: 2em;
 }
 #services .services-content {
   text-align: center;
@@ -2286,6 +2283,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: relative;
   padding: 0;
 }
+
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
   background: #FFFFFF;
@@ -2295,8 +2293,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #portfolio .section-intro h1 {
   color: #737373;
+  font-family: "montserrat-light";
+  line-height: 1.5;
   font-weight: 100;
-  font
+  font-size: 2em;
 }
 #portfolio .section-intro .lead {
   color: #595959;
@@ -2322,15 +2322,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #portfolio .bricks-wrapper .brick:nth-child(2n+1) {
   clear: both;
 }
-#portfolio h1{
 
-  font-family: "montserrat-light";
-  font-size: 5rem;
-  line-height: 1.5;
-  color: #737373;
-  margin-top: 6rem;
-  font-weight: 100;
-}
 
 /* ------------------------------------------------------------------- 
  * masonry entries - (_layout.css) 
@@ -2821,10 +2813,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: whitesmoke;
 }
 #contact .section-intro h1 {
-  color: black;
+  color: #737373;
   font-family: "montserrat-light";
-  font-size: 5rem;
-  font-weight: lighter;
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: 2em;
 }
 #contact .section-intro h3 {
   color: grey;
