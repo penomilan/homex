@@ -2407,7 +2407,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 .bricks-wrapper .item-wrap .item-text .folio-title {
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.364;
   font-weight: 100;
 }
@@ -2538,16 +2538,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #portfolio .intro-wrap {
     padding: 12rem 0 21rem;
   }
-  .row portfolio-content{
-    width: 100%;
-  }
+
+  .bricks-wrapper .item-wrap .item-text .folio-title {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 100;
+}
+
 }
 @media only screen and (max-width: 600px) {
   #portfolio .bricks-wrapper .brick {
     float: none;
-    width: 100%;
-  }
-  .row portfolio-content{
     width: 100%;
   }
 
