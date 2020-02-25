@@ -2539,7 +2539,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     padding: 12rem 0 21rem;
   }
 
-  .bricks-wrapper .item-wrap .item-text .folio-title {
+  .folio-title {
   color: #FFFFFF;
   font-size: 1rem;
   line-height: 1;
@@ -2553,10 +2553,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     width: 100%;
   }
 
-  .bricks-wrapper .item-wrap .item-text .folio-title {
-    font-size: 2rem;
-    line-height: 1.5;
-  }
+  .folio-title {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 100;
+}
 }
 
 
