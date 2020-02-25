@@ -2407,11 +2407,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 .bricks-wrapper .item-wrap .item-text .folio-title {
   color: #FFFFFF;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.364;
+  font-weight: 100;
 }
 .bricks-wrapper .item-wrap .item-text .folio-types {
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "montserrat-light", sans-serif;
+  font-weight: 100;
   font-size: 1.1rem;
   line-height: 1.5rem;
   text-transform: uppercase;
@@ -2536,10 +2538,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #portfolio .intro-wrap {
     padding: 12rem 0 21rem;
   }
+  .row portfolio-content{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 600px) {
   #portfolio .bricks-wrapper .brick {
     float: none;
+    width: 100%;
+  }
+  .row portfolio-content{
     width: 100%;
   }
 
@@ -2548,6 +2556,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     line-height: 1.5;
   }
 }
+
 
 
 /* ===================================================================
