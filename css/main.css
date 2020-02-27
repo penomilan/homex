@@ -64,10 +64,10 @@ html, body {
 
 body {
   background: white;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.8rem;
   line-height: 3rem;
-  color: grey;
+  color: #595959;
   margin: 0;
   padding: 0;
 }
@@ -95,13 +95,12 @@ a:hover, a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6,
 .h01, .h02, .h03, .h04, .h05, .h06 {
-  font-family: "montserrat-light", sans-serif;
-  font-weight: 100;
-  color: #151515;
+  font-family: "montserrat", sans-serif;
+  color: #595959;
   font-style: normal;
   text-rendering: optimizeLegibility;
   margin-bottom: 2.1rem;
-  color: grey;
+  font-weight: 300;
 }
 
 h3, .h03, h4, .h04 {
@@ -158,10 +157,10 @@ p img {
 }
 
 p.lead {
-  font-family: "montserrat-light", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 2rem;
   line-height: 1.8;
-  color: #4f4f4f;
+  color: #595959;
   margin-bottom: 3.6rem;
 }
 @media only screen and (max-width: 768px) {
@@ -563,8 +562,8 @@ select {
   border: 0;
   outline: none;
   vertical-align: middle;
-  color: #444444;
-  font-family: "montserrat-regular", sans-serif;
+  color: #595959;
+  font-family: "montserrat";
   font-size: 1.4rem;
   line-height: 3rem;
   max-width: 100%;
@@ -601,7 +600,7 @@ select {
 }
 .ss-custom-select::after {
   content: '\f0d7';
-  font-family: 'FontAwesome';
+  font-family: 'montserrat';
   position: absolute;
   top: 50%;
   right: 1.5rem;
@@ -613,7 +612,7 @@ select {
   font-size: 18px;
   text-align: center;
   pointer-events: none;
-  color: #252525;
+  color: #595959;
 }
 
 /* IE9 and below */
@@ -638,7 +637,7 @@ select:focus {
 }
 
 label, legend {
-  font-family: "montserrat-light", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 1.4rem;
   margin-bottom: .6rem;
   color: #020202;
@@ -653,7 +652,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "montserrat-light", sans-serif;
+  font-family: "montserrat", sans-serif;
   line-height: inherit;
 }
 
@@ -838,7 +837,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.5rem;
 }
 .alert-box .close {
@@ -878,7 +877,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem .6rem 0 0;
   font-size: 8.4rem;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
@@ -1136,13 +1135,13 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 4.8rem;
   line-height: 1.375;
   color: #151515;
 }
 .section-intro h3 {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.8 rem;
   line-height: 1.667;
   color: rgba(242, 242, 242, 0.5);
@@ -1151,7 +1150,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.2rem;
 }
 .section-intro .lead {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.8;
   line-height: 1.833;
 }
@@ -1408,7 +1407,8 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
   background: #0C0C0C;
-  color: rgba(255, 255, 255, 0.25);
+  color: grey;
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.6;
   padding: 3.6rem 3rem;
@@ -1439,13 +1439,13 @@ header .header-logo a {
 }
 #menu-nav-wrap h3 {
   color: white;
-  font-family: "montserrat-light", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 #menu-nav-wrap .nav-list {
-  font-family: "montserrat-light", sans-serif;
+  font-family: "montserrat", sans-serif;
   margin: 3.6rem 0 1.5rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -1524,7 +1524,7 @@ header .header-logo a {
   transform: rotate(45deg);
 }
 #menu-nav-wrap .sponsor-text {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.4rem;
   line-height: 3rem;
 }
@@ -1764,7 +1764,7 @@ header .header-logo a {
   margin: 0 0 .9rem 0;
 }
 .home-content-tablecell h1 {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 9rem;
   line-height: 1.133;
   color: #FFFFFF;
@@ -1839,7 +1839,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .scroll-icon {
   display: inline-block;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -2057,21 +2057,21 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-top: 10%;
 }
 #about span {
-  color: grey;
+  color: #595959;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 2rem;
   line-height: 1.667;
-  color: grey;
+  color: #595959;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
 }
 
 #about .lead {
-  color: #737373;
-  font-family: "montserrat-light";
+  color: #595959;
+  font-family: "montserrat";
   line-height: 1.5;
   font-weight: 100;
   font-size: 2em;
@@ -2159,7 +2159,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   min-height: 800px;
   position: relative;
   padding: 15rem 0 15rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 #services .overlay {
   position: absolute;
@@ -2182,14 +2182,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #services .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: white;
 }
 #services .section-intro h1 {
   color: #FFFFFF;
 }
 #services .section-intro .lead {
-  color: rgba(242, 242, 242, 1);
-  font-family: "montserrat-light";
+  color: white;
+  font-family: "montserrat";
   line-height: 1.5;
   font-weight: 100;
   font-size: 2em;
@@ -2207,7 +2207,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #services .services-list .service-item p {
-  color: rgba(242, 242, 242, 0.5);
+  color: white;
 }
 #services .services-list .icon {
   display: inline-block;
@@ -2215,20 +2215,20 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #f9a828;
+  color: white;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
-  color: #FFFFFF;
+  color: white;
   margin-bottom: 3rem;
 }
 #services h1{
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 3rem;
   font-weight: lighter;
   line-height: 1.8;
-  color: #2e383f;
+  color: white;
   margin-top: 6rem;
 }
 
@@ -2291,17 +2291,17 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: #FFFFFF;
 }
 #portfolio .section-intro h3 {
-  color: grey;
+  color: #595959;
 }
 #portfolio .section-intro h1 {
-  color: #737373;
-  font-family: "montserrat-light";
+  color: #595959;
+  font-family: "montserrat";
   line-height: 1.5;
   font-weight: 100;
   font-size: 2em;
 }
 #portfolio .section-intro .lead {
-  color: grey;
+  color: #595959;
   font-weight: 100;
 }
 #portfolio .portfolio-content {
@@ -2379,7 +2379,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #FFFFFF;
+  color: white;
   opacity: 0;
   visibility: hidden;
   -moz-transition: all 0.3s ease-in-out;
@@ -2395,24 +2395,24 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: absolute;
   top: 0;
   left: 0;
-  padding: 3.6rem 0 0 3rem;
+  padding: 2rem 0 0 2rem;
   margin-right: 6rem;
   z-index: 3;
 }
 .bricks-wrapper .item-wrap .item-text .folio-title {
-  color: #FFFFFF;
+  color: white;
   font-size: 2.5rem;
   line-height: 1.364;
   font-weight: 100;
 }
 .bricks-wrapper .item-wrap .item-text .folio-types {
-  font-family: "montserrat-light";
-  font-weight: 100;
-  font-size: 1.1rem;
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: 1.5rem;
   line-height: 1.5rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: white;
   display: block;
 }
 .bricks-wrapper .item-wrap .details-link {
@@ -2436,7 +2436,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 .bricks-wrapper .item-wrap .details-link:hover, .bricks-wrapper .item-wrap .details-link:focus {
   background-color: #FFFFFF;
-  color: #000000;
+  color: white;
 }
 .bricks-wrapper .item-wrap .item-text, .bricks-wrapper .item-wrap .details-link {
   opacity: 0;
@@ -2499,13 +2499,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .lg-sub-html h4 {
   color: #FFFFFF;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.8rem;
   line-height: 1.333;
 }
 
 .lg-sub-html p {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.3rem;
   line-height: 2.4rem;
   margin: .6rem 0 0;
@@ -2521,7 +2521,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #lg-counter {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
 }
 
 /* ------------------------------------------------------------------- 
@@ -2557,7 +2557,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-align: center;
 }
 #testimonials h2 {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.8rem;
   line-height: 1.667;
   color: #07617d;
@@ -2581,14 +2581,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding-bottom: 3rem;
 }
 #testimonial-slider p {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 3rem;
   line-height: 1.8;
   color: #151515;
 }
 #testimonial-slider p::before, #testimonial-slider p::after {
   display: inline-block;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 3.6rem;
   line-height: 1;
 }
@@ -2613,7 +2613,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 2rem;
   margin-top: .9rem;
   margin-bottom: 3rem;
@@ -2621,7 +2621,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonial-slider .testimonial-author .author-info span {
   display: block;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.6rem;
   line-height: 1.313;
   letter-spacing: 0;
@@ -2816,7 +2816,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #contact .section-intro h1 {
   color: #737373;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   line-height: 1.5;
   font-weight: 100;
   font-size: 2em;
@@ -2870,7 +2870,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   clear: both;
 }
 #contact form .form-field label {
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1rem;
   line-height: 1.4;
   position: absolute;
@@ -3120,7 +3120,7 @@ footer {
   margin: 0 0 5.4rem 0;
   padding: 0;
   font-size: 1.5rem;
-  color: grey;
+  color: #595959;
 }
 footer a, footer a:visited {
   color: grey;
@@ -3132,7 +3132,8 @@ footer .row {
   max-width: 100%;
 }
 footer h4.h05 {
-  color: grey;
+  color: #595959;
+  font-weight: 400;
   position: relative;
   padding-bottom: 4.2rem;
   margin-bottom: 3.6rem;
@@ -3154,7 +3155,8 @@ footer h4.h05::after {
   padding-top: 9.6rem;
   padding-bottom: 3rem;
   background-color: white;
-  color: grey;
+  color: #595959;
+  font-weight: 400;
 }
 .footer-main ul {
   font-size: 1.5rem;
@@ -3165,7 +3167,7 @@ footer h4.h05::after {
   padding-left: 0;
 }
 .footer-main ul a, .footer-main ul a:visited {
-  color: grey;
+  color: #595959;
 }
 .footer-main ul a:hover, .footer-main ul a:focus {
   color: grey;
@@ -3209,7 +3211,7 @@ footer h4.h05::after {
 }
 .footer-main #mc-form label {
   color: #f9a828;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
 }
 
 /* footer bottom
@@ -3217,10 +3219,12 @@ footer h4.h05::after {
 .footer-bottom {
   
   text-align: center;
-  font-family: "montserrat-light";
+  font-family: "montserrat";
   font-size: 1.4rem;
   background-color: white;
   padding: 1rem;
+  color: grey;
+  font-weight: 400;
 }
 .footer-bottom .copyright span {
   display: inline-block;
@@ -3228,7 +3232,7 @@ footer h4.h05::after {
 .footer-bottom .copyright span::after {
   content: "|";
   display: inline-block;
-  color: rgba(255, 255, 255, 0.1);
+  color: grey;
 }
 .footer-bottom .copyright span:last-child::after {
   display: none;
