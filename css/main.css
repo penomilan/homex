@@ -1594,6 +1594,16 @@ header .header-logo-black a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  header .header-logo-black a {
+    width: 80px;
+    height:96px;
+    background-size: 80px 96px;
+  }
+}
+
+
+
 
 /* ===================================================================
  *  10. home - (_layout.scss)
@@ -1764,7 +1774,7 @@ header .header-logo-black a {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: grey;
+  background-color: white;
 }
 
 
