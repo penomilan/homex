@@ -2076,6 +2076,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-weight: 100;
   font-size: 2em;
 }
+#about p{
+  font-weight: 400;
+  color:#a6a6a6;"
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
