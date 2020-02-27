@@ -2922,6 +2922,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact textarea {
   width: 100%;
   color: black;
+  font-weight: 400;
   margin-bottom: 3.6rem;
   background: white;
   border: 1px solid;
