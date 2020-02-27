@@ -719,7 +719,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "montserrat-regular";
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
@@ -838,7 +838,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "montserrat-light";
   font-size: 1.5rem;
 }
 .alert-box .close {
@@ -878,7 +878,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 1.5rem .6rem 0 0;
   font-size: 8.4rem;
-  font-family: "montserrat-bold", sans-serif;
+  font-family: "montserrat-light";
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
