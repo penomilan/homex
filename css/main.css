@@ -76,7 +76,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #07617d;
+  color: grey;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -85,7 +85,7 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-  color: #000000;
+  color: #595959;
 }
 
 
@@ -2445,7 +2445,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2rem 0 0 2rem;
+  padding: 1.5rem 0 0 2rem;
   margin-right: 6rem;
   z-index: 3;
 }
