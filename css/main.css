@@ -1209,7 +1209,8 @@ input::-moz-focus-inner {
 }
 
 .narrow {
-  max-width: 900px;
+  width: 80%;
+  max-width: 1250px;
 }
 
 .js .animate-this, .js .animate-intro {
