@@ -2613,6 +2613,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 12rem 0 7.8rem;
   text-align: center;
 }
+#testimonials img {
+  max-width: 300px;
+}
 #testimonials h2 {
   font-family: "montserrat";
   font-size: 1.8rem;
@@ -2727,12 +2730,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #testimonial-slider p {
     font-size: 2rem;
   }
+  #testiomonials img {
+    width: 100px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #testimonials h2 {
     font-size: 1.7rem;
   }
-
   #testimonial-slider p {
     font-size: 2rem;
   }
@@ -2746,6 +2751,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #testimonial-slider .testimonial-author .author-info span {
     font-size: 1.5rem;
   }
+  #testiomonials img {
+    width: 100px;
+  }
 }
 @media only screen and (max-width: 600px) {
   #testimonials .flex-container {
@@ -2755,10 +2763,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #testimonial-slider p {
     font-size: 1.7rem;
   }
+  #testiomonials img {
+    width: 100px;
+  }
 }
 @media only screen and (max-width: 500px) {
   #testimonials h2 {
     font-size: 1.5rem;
+  }
+  #testiomonials img {
+    width: 100px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2768,6 +2782,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
   #testimonial-slider p {
     font-size: 1.5rem;
+  }
+  #testiomonials img {
+    width: 100px;
   }
 }
 
