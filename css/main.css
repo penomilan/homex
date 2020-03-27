@@ -1132,7 +1132,7 @@ input::-moz-focus-inner {
 .section-intro {
   text-align: center;
   position: relative;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .section-intro h1 {
   font-family: "montserrat";
@@ -2249,7 +2249,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 2em;
 }
 #services .services-content {
-  text-align: left;
+  text-align: center;
   max-width: 1240px;
 }
 #services .services-list {
@@ -2258,7 +2258,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .service-item {
   margin-bottom: 0rem;
-  padding: 0 0px;
+  padding: 0 30px;
 }
 #services .services-list .service-item p {
   color: grey;
