@@ -2356,6 +2356,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.5;
   font-weight: 100;
   font-size: 2em;
+  margin: 12% 0 15%;
 }
 #portfolio .section-intro .lead {
   color: #595959;
@@ -3088,6 +3089,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 filter: grayscale(100%);
 padding-top: 80px;
 width: 100%;
+text-align: center;
+}
+#map h1 {
+  padding-bottom: 2%;
 }
 
 
