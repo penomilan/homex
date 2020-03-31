@@ -2593,7 +2593,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #portfolio .intro-wrap h1{
     font-size: 1.5em;
   }
-
 }
 @media only screen and (max-width: 600px) {
   #portfolio .bricks-wrapper .brick {
