@@ -1,4 +1,4 @@
-/* ===================================================================
+about/* ===================================================================
  *
  *  Infinity v1.0 Main Stylesheet
  *  01-02-2017
@@ -1759,14 +1759,14 @@ header .header-logo-black a {
   width: 100%;
   height: 15%;
   background-color: white;
-
+  min-height: 300px;
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 402px;
+
   position: relative;
 }
 #impressum .overlay {
@@ -2125,8 +2125,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 2em;
 }
 #about p{
-  font-weight: 400;
-  color:#a6a6a6;"
+  font-weight: 100;
+  color:grey;"
 }
 
 /* -------------------------------------------------------------------
@@ -2341,10 +2341,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   min-height: 800px;
   position: relative;
   padding: 0;
+  margin-top: 150px;
 }
 
 #portfolio .intro-wrap {
-  padding: 15rem 0 21rem;
   background: #FFFFFF;
 }
 #portfolio .section-intro h3 {
@@ -2356,7 +2356,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 1.5;
   font-weight: 100;
   font-size: 2em;
-  margin: 12% 0 15%;
+  
 }
 #portfolio .section-intro .lead {
   color: #595959;
@@ -2588,8 +2588,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   #portfolio .intro-wrap {
-    padding: 12rem 0 21rem;
+    padding: 1rem 0 1rem;
   }
+  #portfolio .intro-wrap h1{
+    font-size: 1.5em;
+  }
+
 }
 @media only screen and (max-width: 600px) {
   #portfolio .bricks-wrapper .brick {
@@ -2877,8 +2881,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding: 12rem 0 12rem;
   position: relative;
+  margin-top: 150px;
 }
 #contact .overlay {
   position: absolute;
