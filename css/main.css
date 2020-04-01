@@ -2363,7 +2363,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-weight: 100;
 }
 #portfolio .portfolio-content {
-  margin-top: -22.2rem;
+  margin-top: -350px;
 }
 #portfolio .bricks-wrapper:before,
 #portfolio .bricks-wrapper:after {
@@ -2588,7 +2588,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   #portfolio .intro-wrap {
-    padding: 12rem 0 21rem;
+    padding: 12rem 0 10rem;
+  }
+  #portfolio .intro-wrap h1 {
+    font-size: 1.5em;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -3087,7 +3090,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 -ms-filter: grayscale(100%);
 -o-filter: grayscale(100%);
 filter: grayscale(100%);
-padding-top: 80px;
+padding-top: 5px;
 width: 100%;
 text-align: center;
 }
