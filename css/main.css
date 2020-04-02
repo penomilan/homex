@@ -1388,7 +1388,6 @@ header .header-logo-black a {
 
 
 
-
 /* -------------------------------------------------------------------
  * project close - (_layout.css)
  * ------------------------------------------------------------------- */
@@ -2883,7 +2882,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding: 12rem 0 12rem;
+  padding: 4.2rem 0 12rem;
   position: relative;
 }
 #contact .overlay {
