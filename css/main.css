@@ -2916,6 +2916,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: black;
   z-index: 600;
   position: relative;
+  text-align: center;
 
 
 }
