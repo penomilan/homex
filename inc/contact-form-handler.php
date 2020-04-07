@@ -1,34 +1,33 @@
-﻿<?php 
+<?php 
 $errors = '';
-$myemail = 'penomilan@gmail.com';//<-----Put Your email address here.
+$myemail = 'office@homex-designstudio.com';//<-----Put Your email address here.
 if(empty($_POST['email']))
 {
-    $errors .= "\n ERROR";
+    $errors .= "\n E-Mail-Adresse ist falsch";
 }
- 
+
 $email_address = $_POST['email']; 
- 
 
 if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
 $email_address))
 {
-    $errors .= "\n ERROR";
+    $errors .= "\n E-Mail-Adresse ist falsch";
 }
 
 if( empty($errors))
 {
 	$to = $myemail; 
-	$email_subject = "Subscribe form submission:";
-	$email_body = "You have received a new message. ".
-	" Here are the details:\n Email: $email_address "; 
+	$email_subject = "Subscription mail";
+	$email_body = "You have received a new subscription mail. ".
+	" Here are the details:\n Email: $email_address"; 
 	
 	$headers = "From: $myemail\n"; 
 	$headers .= "Reply-To: $email_address";
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: ../thanks.html');
+	header('Location: ../index.html');
 } 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
@@ -42,7 +41,7 @@ if( empty($errors))
 <?php
 echo nl2br($errors);
 ?>
- 
+
 
 </body>
 </html>

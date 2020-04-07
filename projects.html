@@ -274,16 +274,16 @@
 
 	      		<div class="subscribe-form">
 
-	      			<form id="mc-form" class="group" novalidate="true">
+	      			<form id="contact-form" class="group" method="post" name="contactform" action="inc/contact-form-handler.php">
+					
 
-							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="type email" required="">
-
-			   			<!-- <input type="submit" name="subscribe" > -->
-			   			<button><i class="icon-mail"></i></button>
-
-		   				<label for="mc-email" class="subscribe-message"></label>
-
-						</form>
+					<input style="width: 100%;" name="email" type="email" class="email" placeholder="Email" required>
+					<input type="hidden" name="after" value="http://homex-designstudio.com/index.html">
+					
+					<div class="contact-submit">
+						<input style="color: white;" id="mc-email" type="submit" class="form-control submit" value="SENDEN">
+					</div>
+				</form>
 
 	      		</div>
 

@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'penomilan@gmail.com';
+$siteOwnersEmail = 'office@homex-designstudio.com';
 
 
 if($_POST) {
